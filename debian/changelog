@@ -1,0 +1,5 @@
+golang-github-mdlayher-netlink (1.0.0-1) UNRELEASED; urgency=medium
+
+  * Initial release
+
+ -- Daniel Gollub <dgollub@att.com>  Fri, 13 Aug 2021 19:17:34 +0200

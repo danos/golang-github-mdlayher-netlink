@@ -1,0 +1,25 @@
+Source: golang-github-mdlayher-netlink
+Section: devel
+Priority: optional
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Build-Depends: debhelper (>= 12),
+               dh-golang,
+               golang-any,
+               golang-github-google-go-cmp-dev,
+               golang-github-josharian-native-dev,
+               golang-golang-x-net-dev,
+               golang-golang-x-sys-dev
+Standards-Version: 4.2.1
+Homepage: https://github.com/mdlayher/netlink
+XS-Go-Import-Path: github.com/mdlayher/netlink
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-mdlayher-netlink-dev
+Architecture: all
+Depends: ${misc:Depends},
+         golang-github-google-go-cmp-dev,
+         golang-github-josharian-native-dev,
+         golang-golang-x-net-dev,
+         golang-golang-x-sys-dev
+Description: Package netlink provides low-level access to Linux netlink sockets
+ Netlink low-level access to Linux netlink sockets as Go module.
